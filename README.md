@@ -11,15 +11,13 @@ Problema: Tenemos dos monos a y b, y los parametros aSmile y bSmile que indican 
 - salida
 
 #### Proceso
-
-- Preguntar si el mono "a" esta sonriendo o no.
--Preguntar si el mono "b" esta sonriendo o no.
-- SI :
-	 -Ambos monos estan sonriendo , estamos en problemas-mostrar 1
--DE LO CONTRARIO,SI :
- 	-Ambos monos no estan sonriendo, estamos en problemas-mostrar 1
-
--SI NO: 
-	-Ambos monos no tienen la misma reaccion, no estamos en problemas-mostrar 0
+- Saber si el mono "a " esta sonriendo.
+- Saber si el mono "b " esta sonriendo.
+- Si
+	 Los dos monos estan sonriendo , estamos en problemasy se mostrara 1
+-De lo contrario.si
+ 	 Los dos monos no estan sonriendo, estamos en problemasy se mostrara 1
+-Si no
+	-Ambos monos no tienen la misma reaccion,  no estamos en problemasy se mostrara 0
 
 *Fin*
