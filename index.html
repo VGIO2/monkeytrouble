@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+    <link rel="shortcut icon" href="images/mono.jpg">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+	<title>Monkey Trouble</title>
+</head>
+<body>
+<!--------------------------------------------------------------------------HEADER-------------->
+<header>
+       <div class="container">
+           <div class="row">
+               <div class="col-sm-offset-3 col-sm-6 col-xs-12 logo">
+                   <img class="animated wobble texto" src="images/logo.png">
+               </div>
+           </div>
+       </div>
+	   <div class="container">
+		  <div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h1 class="text-center">Monkey Trouble</h1>
+				<p class="text-center problemas">¿Cuando estamos en problemas?</p>
+				<hr>
+			</div>
+		  </div>
+       </div>
+</header>
+<!-------------------------------------------------------------------------EJERCICIO-------------->
+		<div class="row">
+			<div class="col-md-5 col-md-offset-2">
+				<div class="form-group">
+					<label for="aSmile" >¿El mono A esta sonriendo ?</label>
+					<select class="form-control" id="monoa">
+						<option value="1">SI</option>
+						<option value="2">NO</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="bSmile">¿El mono B esta sonriendo ?</label>
+					<select class="form-control" id="monob">
+						<option value="1">Si</option>
+						<option value="2">No</option>
+					</select>
+				</div>
+				<button onclick="calcular()" class="btn btn-danger">Evaluar</button>
+			</div>
+			<div class="col-md-3 text-center">
+				<h4 class="text-info">Estamos en problemas?</h4>
+				<div id="salida" style="font-size:50px;" class="text-center">-</div>
+	        </div>
+	</div>
+</body>
+
+<script src="js/main.js"></script>
+</html>
