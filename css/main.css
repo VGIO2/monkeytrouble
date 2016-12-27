@@ -14,6 +14,10 @@ body{
 h1, h4, p{
     font-family: 'Aref Ruqaa', serif;
 }
+h4{
+    font-size: 20px;
+    color: black;
+}
 /*-------------------->> SECTION EJERCICIO <<--------------------*/
 button{
     margin-top: 20px;

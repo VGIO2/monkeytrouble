@@ -1,3 +1,4 @@
+
 function calcular()
 {
     var aSmile = document.getElementById("monoa").value;
