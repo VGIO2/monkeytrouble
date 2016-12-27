@@ -18,6 +18,10 @@ h4{
     font-size: 20px;
     color: black;
 }
+.codigo a{
+    color: black;
+    padding-top: 20px;
+}
 /*-------------------->> SECTION EJERCICIO <<--------------------*/
 button{
     margin-top: 20px;
